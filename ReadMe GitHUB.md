@@ -1,4 +1,5 @@
 #Dashboard disponível em português e inglês
+
 #Dashboard available in Portuguese and English
 
 Português | Portuguese:
@@ -12,6 +13,7 @@ Alguns pontos principais sobre o projeto:
 2 — Procurei responder às seguintes perguntas de negócio:
 
 	2.1 —  Dos três modais de transporte disponíveis, quais são os mais eficientes, considerando a razão da quantidade de entregas no prazo dividida pela quantidade total de entregas;
+ 
 			2.1.1 — Dentro deste tópico, é possível subdividir por galpões, classificados de “A” a “F”, para determinar os mais eficientes em termos de entrega.
 	
 	Para responder a essa questão, criei uma Tabela Dinâmica e adicionei Segmentação de Dados para facilitar o filtro e tornar a leitura dos dados mais interativa.
@@ -34,6 +36,7 @@ The source .csv file was downloaded from the following link: https://www.kaggle.
 2 — The project aims to answer the following business questions:
 
 	2.1 — Which of the three available transportation modes are the most efficient, considering the ratio of on-time deliveries to total deliveries?
+ 
 		2.1.1 — Within this topic, it is possible to break down by warehouses, classified from “A” to “F”, to determine the most efficient in terms of delivery.
 	
 	 To answer this question, a PivotTable was created and Data Slicers were added to facilitate filtering and make data reading more interactive. A custom measure was also created in Power Pivot to calculate the delivery efficiency of each transportation mode.
